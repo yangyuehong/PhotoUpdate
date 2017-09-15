@@ -16,6 +16,36 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        var logined:Bool = false
+        logined = true
+        
+        //*
+        // MARK: - Method 1
+        if (!logined) {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let initialViewController = storyboard.instantiateViewController(withIdentifier: "LoginNavigationController")
+            window?.rootViewController = initialViewController
+            //表示
+            window?.makeKeyAndVisible()
+        }
+        
+        //*/
+        
+        /*
+         // MARK: - Method 2
+         let storyboard = UIStoryboard(name: "Main", bundle: nil)
+         var initialViewController = storyboard.instantiateViewController(withIdentifier: "LoginNavigationController")
+         
+         //ユーザーがログイン済みの場合、メイン画面へ遷移
+         if (logined){
+         initialViewController = storyboard.instantiateViewController(withIdentifier: "MainTabBarcontrollerViewController")
+         }
+         
+         window?.rootViewController = initialViewController
+         //表示
+         window?.makeKeyAndVisible()
+         */
+        
         return true
     }
 
