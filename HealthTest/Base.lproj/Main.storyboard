@@ -244,6 +244,7 @@
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="OGL-I9-oji" secondAttribute="height" multiplier="1:1" id="mjx-qg-FLz"/>
+                                    <constraint firstAttribute="height" constant="100" id="v5o-8A-PSp"/>
                                 </constraints>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="bIC-ot-Pg3" appends="YES" id="Tcb-fz-sJ9"/>
@@ -255,6 +256,14 @@
                                 <state key="normal" title="Take Photo"/>
                                 <connections>
                                     <action selector="openCameraButton:" destination="y7g-5i-fGe" eventType="touchUpInside" id="9nt-yF-nFK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="trK-g6-uBq">
+                                <rect key="frame" x="117" y="318" width="88" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="PhotoLibrary"/>
+                                <connections>
+                                    <action selector="openPhotoLibraryButton:" destination="y7g-5i-fGe" eventType="touchUpInside" id="bZn-2M-g0j"/>
                                 </connections>
                             </button>
                         </subviews>

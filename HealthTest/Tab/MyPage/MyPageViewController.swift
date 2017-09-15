@@ -12,7 +12,7 @@ class MyPageViewController: UIViewController, UIImagePickerControllerDelegate, U
 
     @IBOutlet weak var photoView: UIImageView!
     
-    
+    // MARK: - Camera / PhotoLibrary
     @IBAction func openCameraButton(_ sender: Any) {
         if UIImagePickerController.isSourceTypeAvailable(.camera) {
             let imagePicker = UIImagePickerController()
@@ -23,17 +23,26 @@ class MyPageViewController: UIViewController, UIImagePickerControllerDelegate, U
         } else {
             print("Camera can't be used.")
         }
-        
-        
-//        if UIImagePickerController.isSourceTypeAvailable(.photoLibrary) {
-//            let imagePicker = UIImagePickerController()
-//            imagePicker.delegate = self
-//            imagePicker.sourceType = UIImagePickerControllerSourceType.photoLibrary
-//            imagePicker.allowsEditing = false
-//            present(imagePicker, animated: false, completion: nil)
-//        } else {
-//            print("PhotoLibrary can't be used.")
-//        }
+    }
+    
+    @IBAction func openPhotoLibraryButton(_ sender: Any) {
+        if UIImagePickerController.isSourceTypeAvailable(.photoLibrary) {
+            let imagePicker = UIImagePickerController()
+            imagePicker.delegate = self
+            imagePicker.sourceType = UIImagePickerControllerSourceType.photoLibrary
+            imagePicker.allowsEditing = true
+            present(imagePicker, animated: true, completion: nil)
+        } else {
+            print("PhotoLibrary can't be used.")
+        }
+    }
+    
+    // MARK: - UIImagePickerControllerDelegate
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        if let image = info[UIImagePickerControllerOriginalImage] as? UIImage {
+            photoView.image = image
+        }
+        picker.dismiss(animated: true, completion: nil);
     }
     
     
