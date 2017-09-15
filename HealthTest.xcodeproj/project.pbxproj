@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF21C24B1F6B6F3500F16281 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF21C24A1F6B6F3500F16281 /* MyPageViewController.swift */; };
 		FF50A17E1F134ACB000CDEF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF50A17D1F134ACB000CDEF5 /* AppDelegate.swift */; };
 		FF50A1801F134ACB000CDEF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF50A17F1F134ACB000CDEF5 /* ViewController.swift */; };
 		FF50A1831F134ACC000CDEF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF50A1811F134ACC000CDEF5 /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		FF50A1881F134ACC000CDEF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF50A1861F134ACC000CDEF5 /* LaunchScreen.storyboard */; };
 		FF50A1931F134ACC000CDEF5 /* HealthTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF50A1921F134ACC000CDEF5 /* HealthTestTests.swift */; };
 		FF50A19E1F134ACC000CDEF5 /* HealthTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF50A19D1F134ACC000CDEF5 /* HealthTestUITests.swift */; };
+		FF69E4871F3AE4B00009AD23 /* Sport.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF69E4851F3AE4B00009AD23 /* Sport.storyboard */; };
+		FF9030F01F32BE3900F3CBE6 /* CommanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9030EF1F32BE3900F3CBE6 /* CommanViewController.swift */; };
+		FF9031021F32C80100F3CBE6 /* LoginNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9030FF1F32C80100F3CBE6 /* LoginNavigationController.swift */; };
+		FF9031031F32C80100F3CBE6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9031001F32C80100F3CBE6 /* LoginViewController.swift */; };
+		FF9031041F32C80100F3CBE6 /* ReigsterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9031011F32C80100F3CBE6 /* ReigsterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF21C24A1F6B6F3500F16281 /* MyPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		FF50A17A1F134ACB000CDEF5 /* HealthTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF50A17D1F134ACB000CDEF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF50A17F1F134ACB000CDEF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		FF50A1991F134ACC000CDEF5 /* HealthTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF50A19D1F134ACC000CDEF5 /* HealthTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTestUITests.swift; sourceTree = "<group>"; };
 		FF50A19F1F134ACC000CDEF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF69E4861F3AE4B00009AD23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Sport.storyboard; sourceTree = "<group>"; };
+		FF9030EF1F32BE3900F3CBE6 /* CommanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommanViewController.swift; sourceTree = "<group>"; };
+		FF9030FF1F32C80100F3CBE6 /* LoginNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginNavigationController.swift; sourceTree = "<group>"; };
+		FF9031001F32C80100F3CBE6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FF9031011F32C80100F3CBE6 /* ReigsterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReigsterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF21C2491F6B6F3500F16281 /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				FF21C24A1F6B6F3500F16281 /* MyPageViewController.swift */,
+			);
+			path = MyPage;
+			sourceTree = "<group>";
+		};
 		FF50A1711F134ACB000CDEF5 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +101,7 @@
 				FF50A1911F134ACC000CDEF5 /* HealthTestTests */,
 				FF50A19C1F134ACC000CDEF5 /* HealthTestUITests */,
 				FF50A17B1F134ACB000CDEF5 /* Products */,
+				FF50A1AB1F134B05000CDEF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +118,16 @@
 		FF50A17C1F134ACB000CDEF5 /* HealthTest */ = {
 			isa = PBXGroup;
 			children = (
+				FF9031071F32CA4100F3CBE6 /* Tab */,
+				FF9030FE1F32C80100F3CBE6 /* Login */,
 				FF50A17D1F134ACB000CDEF5 /* AppDelegate.swift */,
 				FF50A17F1F134ACB000CDEF5 /* ViewController.swift */,
 				FF50A1811F134ACC000CDEF5 /* Main.storyboard */,
 				FF50A1841F134ACC000CDEF5 /* Assets.xcassets */,
 				FF50A1861F134ACC000CDEF5 /* LaunchScreen.storyboard */,
 				FF50A1891F134ACC000CDEF5 /* Info.plist */,
+				FF9030EF1F32BE3900F3CBE6 /* CommanViewController.swift */,
+				FF69E4851F3AE4B00009AD23 /* Sport.storyboard */,
 			);
 			path = HealthTest;
 			sourceTree = "<group>";
@@ -123,6 +148,31 @@
 				FF50A19F1F134ACC000CDEF5 /* Info.plist */,
 			);
 			path = HealthTestUITests;
+			sourceTree = "<group>";
+		};
+		FF50A1AB1F134B05000CDEF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF9030FE1F32C80100F3CBE6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FF9030FF1F32C80100F3CBE6 /* LoginNavigationController.swift */,
+				FF9031001F32C80100F3CBE6 /* LoginViewController.swift */,
+				FF9031011F32C80100F3CBE6 /* ReigsterViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FF9031071F32CA4100F3CBE6 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				FF21C2491F6B6F3500F16281 /* MyPage */,
+			);
+			path = Tab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,15 +243,23 @@
 				TargetAttributes = {
 					FF50A1791F134ACB000CDEF5 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 878799TLB4;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					FF50A18D1F134ACC000CDEF5 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 878799TLB4;
 						ProvisioningStyle = Automatic;
 						TestTargetID = FF50A1791F134ACB000CDEF5;
 					};
 					FF50A1981F134ACC000CDEF5 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 878799TLB4;
 						ProvisioningStyle = Automatic;
 						TestTargetID = FF50A1791F134ACB000CDEF5;
 					};
@@ -235,6 +293,7 @@
 				FF50A1881F134ACC000CDEF5 /* LaunchScreen.storyboard in Resources */,
 				FF50A1851F134ACC000CDEF5 /* Assets.xcassets in Resources */,
 				FF50A1831F134ACC000CDEF5 /* Main.storyboard in Resources */,
+				FF69E4871F3AE4B00009AD23 /* Sport.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +319,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF50A1801F134ACB000CDEF5 /* ViewController.swift in Sources */,
+				FF9030F01F32BE3900F3CBE6 /* CommanViewController.swift in Sources */,
+				FF21C24B1F6B6F3500F16281 /* MyPageViewController.swift in Sources */,
+				FF9031041F32C80100F3CBE6 /* ReigsterViewController.swift in Sources */,
 				FF50A17E1F134ACB000CDEF5 /* AppDelegate.swift in Sources */,
+				FF9031021F32C80100F3CBE6 /* LoginNavigationController.swift in Sources */,
+				FF9031031F32C80100F3CBE6 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +374,14 @@
 				FF50A1871F134ACC000CDEF5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FF69E4851F3AE4B00009AD23 /* Sport.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF69E4861F3AE4B00009AD23 /* Base */,
+			);
+			name = Sport.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -414,9 +486,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				DEVELOPMENT_TEAM = 878799TLB4;
 				INFOPLIST_FILE = HealthTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yang.HealthTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yang.HealthTest1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -426,9 +500,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				DEVELOPMENT_TEAM = 878799TLB4;
 				INFOPLIST_FILE = HealthTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yang.HealthTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yang.HealthTest1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -439,6 +515,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 878799TLB4;
 				INFOPLIST_FILE = HealthTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yang.HealthTestTests;
@@ -453,6 +530,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 878799TLB4;
 				INFOPLIST_FILE = HealthTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yang.HealthTestTests;
@@ -466,6 +544,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 878799TLB4;
 				INFOPLIST_FILE = HealthTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yang.HealthTestUITests;
@@ -479,6 +558,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 878799TLB4;
 				INFOPLIST_FILE = HealthTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yang.HealthTestUITests;
@@ -507,6 +587,7 @@
 				FF50A1A41F134ACC000CDEF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF50A1A51F134ACC000CDEF5 /* Build configuration list for PBXNativeTarget "HealthTestTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +596,7 @@
 				FF50A1A71F134ACC000CDEF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF50A1A81F134ACC000CDEF5 /* Build configuration list for PBXNativeTarget "HealthTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +605,7 @@
 				FF50A1AA1F134ACC000CDEF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
